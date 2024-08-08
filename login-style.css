@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*navbar*/
+.header{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    box-shadow: 0.4px 0.4px 0.4px black;
+}
+
+.logo{
+    margin:10px 170px 30px 130px
+}
+.logo h2{
+    font-size: 25px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 245, 249);
+}
+
+.container img{
+    height: 100vh;
+    width: 70vw;
+}
+
+.login{
+    margin-left: 30px;
+}
+.login .name{
+    font-size: 30px;
+    margin: 80px 0px 50px 0px;
+}
+.container .login input{
+    padding: 15px 170px 15px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.container .login input::placeholder{
+    opacity: 0.6;
+}
+
+.container .login p{
+    font-family: "Gupter", serif;
+}
+.container .login p a{
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+
+/* .container .login input,.container .login #para,.container .login button{
+    margin-left: 30px;
+} */
+.container .login #para,.container .login #para2{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+
+.container .login button,.container .login #bt1{
+    padding: 15px 140px;
+    transition: padding 0.5s ease-in-out;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.container .login button:hover,.container .login #bt1:hover{
+    transform: scale(1.03,1.03);
+}
+
+.container .login #bt1{
+    padding: 15px 90px 15px 90px;
+    font-size: 16px;
+}
+
+
+.container .login .notice{
+    padding-top: 20px;
+}
+.container .login .notice p{
+    margin-top: 15px;
+    font-family: "Gupter", serif;
+    font-size: 19px;
+}
+.container .login .notice p a{
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+
+
+
+
+
+.footer{
+    width: 100vw;
+    height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .products,.footer .company,.footer .support,.footer .mailing{
+    margin-top: 100px;
+    font-size: 13px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer .products h2 ,.footer .company h2,.footer .support h2{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer .products p,.footer .company p,.footer .support p,.footer .mailing label{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.footer .mailing input{
+    margin-top: 40px;
+    padding: 20px 280px 20px 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.footer .mailing input::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.footer .mailing label{
+    line-height: 25px;
+}
+.footer .mailing label a{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+
+
+
+.last{
+    border-top: 1px solid white;
+    background-color: black;
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border: 2px solid rde;
+}
+.last p,.last .social-media,.last  a{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.last .social-media{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.last a{
+    padding-right: 30px;
+    color: white;
+}
